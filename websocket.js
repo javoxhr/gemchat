@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const messageInput = document.getElementById("message-input");
     const sendMessageButton = document.getElementById("send-message-button");
 
-    let websocketClient = new WebSocket("wss://javoxhr.github.io/gemchat.github.io:7815");
+    let websocketClient = new WebSocket("wss://javoxhr.github.io/gemchat:443");
 
     // Функция для добавления сообщения в хранилище браузера
     function addMessageToStorage(message) {
